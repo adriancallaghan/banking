@@ -1,9 +1,27 @@
 {
-    "hash": "3d8fc311b085e1e9bc4ed181947f205d",
+    "hash": "5f31817355d7de2ea0e9eef81e8612ca",
     "packages": [
+        {
+            "package": "bjyoungblood/BjyProfiler",
+            "version": "dev-master",
+            "source-reference": "34c3b2db5c6d17881173b3794f8c28752b976314",
+            "commit-date": "1361861637"
+        },
+        {
+            "package": "zendframework/zend-developer-tools",
+            "version": "dev-master",
+            "source-reference": "341015914744a58501cd5e2cc53ee4fcb055348e",
+            "commit-date": "1362608140"
+        },
         {
             "package": "zendframework/zendframework",
             "version": "2.1.3"
+        },
+        {
+            "package": "zendframework/zftool",
+            "version": "dev-master",
+            "source-reference": "7bdb1bcec331d995c800287b0dca614b62b701cc",
+            "commit-date": "1361391723"
         }
     ],
     "packages-dev": null,
@@ -11,7 +29,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "zendframework/zftool": 20,
+        "bjyoungblood/bjyprofiler": 20,
+        "zendframework/zend-developer-tools": 20
+    }
 }
